@@ -24,7 +24,7 @@ app.use(cookieParser());
 // app.use(limiter)
 
 const corsOption = {
-  origin: ["http://localhost:3000" , "https://swissmote-922.vercel.app"],
+  origin: ["http://localhost:3000" , "https://swissmote-922.vercel.app/" , "https://swissmote-frontend-6q2b.vercel.app/"],
   credentials: true,
   exposedHeaders: ["Set-Cookie"]
 }
